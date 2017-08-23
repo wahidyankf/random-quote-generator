@@ -1,11 +1,6 @@
 let data = {
   listQuote: [
     {
-      quote:
-        'Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the universe trying to build bigger and better idiots. So far, the universe is winning.',
-      author: 'Rick Cook'
-    },
-    {
       quote: "Lisp isn't a language, it's a building material.",
       author: ' Alan Kay'
     },
@@ -47,11 +42,6 @@ let data = {
       quote:
         'FORTRAN is not a flower but a weed — it is hardy, occasionally blooms, and grows in every computer.',
       author: 'lan J. Perlis'
-    },
-    {
-      quote:
-        'For a long time it puzzled me how something so expensive, so leading edge, could be so useless. And then it occurred to me that a computer is a stupid machine with the ability to do incredibly smart things, while computer programmers are smart people with the ability to do incredibly stupid things. They are, in short, a perfect match.',
-      author: 'Bill Bryson'
     }
   ],
   activeQuote: {

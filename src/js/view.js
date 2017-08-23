@@ -1,13 +1,14 @@
 const view = {
   renderInit() {
     $('body').append(
-      `<p class="quote">${data.activeQuote.quote}</p>
-      <p class="author">- ${data.activeQuote.author}</p>
+      `<div class="content-wrapper"> <p class="quote">${data.activeQuote
+        .quote}</p>
+      <p class="author">- ${data.activeQuote.author}</p> </div>
       <button>Show Next Quote</button>`
     );
   },
   renderUpdate() {
-    $('.quote').text(data.activeQuote.quote);
-    $('.author').text(data.activeQuote.author);
+    $('.quote').html(`&ldquo;${data.activeQuote.quote}&rdquo;`);
+    $('.author').html(`- ${data.activeQuote.author}`);
   }
 };
