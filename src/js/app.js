@@ -1,5 +1,28 @@
-const test = () => {
-  console.log('Hello from app.js');
-};
+$(() => {
+  let bucket = [];
+  const init = bucket => {
+    controller.updateInitData(bucket);
+    view.renderInit();
+  };
 
-test;
+  controller.updateEmptyBucket(bucket);
+
+  init(bucket);
+
+  view.renderUpdate();
+
+  $('button').on('click', e => {
+    controller.updateActiveQuote(bucket);
+    view.renderUpdate();
+  });
+
+  $('body').keyup(() => {
+    controller.updateActiveQuote(bucket);
+    view.renderUpdate();
+  });
+
+  setInterval(() => {
+    controller.updateActiveQuote(bucket);
+    view.renderUpdate();
+  }, 30000);
+});
