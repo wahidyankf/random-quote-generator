@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this project, I created a page that will randomly generate quotes from a data object. This page will change its displayed quote when we click the button / pres any key / 30 seconds has passed. This page also will not displayed the same quote until all of quotes has been displayed.
+In this project, I created a page that will randomly generate quotes from a data object. This page will change its displayed quote when we click the button / pres any key / 30 seconds has passed. This page will also not displayed the same quote until all of quotes has been displayed.
 
 ### Demo pages
 
