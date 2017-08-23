@@ -1,4 +1,5 @@
 $(() => {
+  $('.loading-message').hide();
   let bucket = [];
   const init = bucket => {
     controller.updateInitData(bucket);
